@@ -7,7 +7,7 @@ public class Prg11 {
         int lev=sc.nextInt();
         int cap=(int)Math.pow(2,lev);
         int ans=base*cap;
-        System.out.println(ans);
-        
+        System.out.println(ans);   
     }
 }
+

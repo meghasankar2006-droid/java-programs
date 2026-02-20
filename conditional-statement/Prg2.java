@@ -23,7 +23,6 @@ public class Prg2 {
                 decision="Approved";
                 loan=3*income;
             }
-
         }
         else if(ratio>30.0 && ratio<=40.0){ //moderate
                 if(loantype.equals("business")){
@@ -34,7 +33,6 @@ public class Prg2 {
     } 
     //good
     else if(credit>=700 && credit<750) {
-
         if(ratio<=30.0){  //low
             if(loantype.equals("business")){
                 decision="Approved";

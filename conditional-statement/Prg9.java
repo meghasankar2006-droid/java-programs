@@ -59,7 +59,6 @@ public class Prg9 {
         double grosstax=(taxableincome*taxrate)/100;
         double nettax=grosstax-taxCredits;
         double effectiverate=(nettax/annualrevenue)*100;
-
         System.out.println("Annual Revenue: $"+annualrevenue);
         System.out.println("Business Type: "+Bussinesstype);
         System.out.println("Deductible Expenses: $"+expenses);
@@ -69,6 +68,7 @@ public class Prg9 {
         System.out.println("Gross Tax: $"+grosstax);
         System.out.println("Net Tax After Credits: $"+nettax);
         System.out.printf("Effective Tax Rate:%.2f %% ",effectiverate);   
-
+        sc.close();
     }
 }
+

@@ -6,9 +6,7 @@ public class Prg10 {
     double power=sc.nextDouble();
     double percentage=sc.nextDouble();
     String tier =sc.next(); 
-
     double baserate=0.0;
-
     if(tier.equals("Basic")){
         baserate=0.18;
     }
@@ -89,5 +87,6 @@ System.out.println("Renewable Credit: $"+credit);
 System.out.printf("Total Cost: $%.2f \n",cost);
 System.out.println("Optimization Recommendation:"+reco);
 System.out.printf("Potential Savings: $%.2f \n",saving);
+sc.close();
 }
 }

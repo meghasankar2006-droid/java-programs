@@ -83,7 +83,8 @@ public class Prg12 {
     System.out.printf("Monthly Premium: $%.2f \n",mpremium);
     System.out.printf("Annual Premium: $%.2f \n",fpremium);
     System.out.println("Risk Category: "+category);
-
+    sc.close();
 
     }
 }
+

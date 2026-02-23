@@ -6,7 +6,6 @@ public class Prg11 {
         String loyalty=sc.next();
         double orderval=sc.nextDouble();
         String timeslot=sc.next();
-
         int dis=0;
         if(loyalty.equals("Gold")){
             dis=15;
@@ -20,7 +19,6 @@ public class Prg11 {
         else if(loyalty.equals("None")){
             dis=0;
         }
-
         int adjustment=0;
         if(timeslot.equals("Late-Night")){
             adjustment=-5;
@@ -28,7 +26,6 @@ public class Prg11 {
         double servicefee=0;
         if(ordertype.equals("Delivery")){
             servicefee=(orderval*10)/100;
-
         }
         else if(ordertype.equals("Takeout")){
             servicefee=(orderval*3)/100;
@@ -50,7 +47,6 @@ public class Prg11 {
     else if(timeslot.equals("Late-Night")){
         priority="Low";
     }
-
     System.out.println("Order Type: "+ordertype);
     System.out.println("Loyalty Status: "+loyalty);
     System.out.println("Order Value: "+orderval);
@@ -60,7 +56,7 @@ public class Prg11 {
     System.out.println("Service Fee: "+servicefee);
     System.out.println("Final Amount: "+finalamt);
     System.out.println("Kitchen Priority: "+priority);
-
-
+    sc.close();
     }
 }
+

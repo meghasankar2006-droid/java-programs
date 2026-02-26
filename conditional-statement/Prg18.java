@@ -54,10 +54,10 @@ public class Prg18 {
         else if(pacsize.equals("Large")){
             ss=15.0;
         }
-        else if(pacsize.equals("Oversized")){
+        else if(pacsize.equals("Small")){
             ss=30.0;
         }
-
+        
         double basecost =(baserate+wtsurage)*zmul;
         double totcost=basecost+ss;
 
@@ -134,6 +134,6 @@ public class Prg18 {
         System.out.printf("Total Shipping Cost: $%.2f \n",totcost);
         System.out.println("Estimated Delivery: "+deltym);
         System.out.println("Service Level: "+serlev);
-        
+        sc.close();
     }
 }

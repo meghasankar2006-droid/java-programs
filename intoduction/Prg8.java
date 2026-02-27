@@ -9,6 +9,6 @@ public class Prg8 {
         int wrk=rodsPerHour*hoursWorked;
         int tot=(wrk+overtimeRods)-rejectedRods;
         System.out.println(tot);
-
     }
 }
+

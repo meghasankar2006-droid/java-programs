@@ -49,6 +49,7 @@ public class Prg2 {
     System.out.println("Highest Score: "+max);
     System.out.println("Students Passed: "+count);
     System.out.println("Students Failed: "+(n-count));
+    sc.close();
     }
     
 }

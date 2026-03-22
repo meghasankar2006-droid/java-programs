@@ -23,7 +23,7 @@ public class arr1{
         System.out.printf("Average Salary: %.2f  \n ",avg);
         System.out.println("Employees Above Average: "+acount);
         System.out.printf("Percentage: %.2f%% \n",per);
-        
+
 
     }
 }

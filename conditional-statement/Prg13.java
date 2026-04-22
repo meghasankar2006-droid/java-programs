@@ -10,8 +10,6 @@ public class Prg13 {
         if(ptype.equals("Undergraduate")){
             base=350.0;
         }
-
-
             
         else if(ptype.equals("Graduate")){
             base=550.0;

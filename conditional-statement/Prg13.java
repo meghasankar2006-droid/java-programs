@@ -9,7 +9,8 @@ public class Prg13 {
         double base=0.0;
         if(ptype.equals("Undergraduate")){
             base=350.0;
-        }   
+        }  
+            
         else if(ptype.equals("Graduate")){
             base=550.0;
         }

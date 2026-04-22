@@ -83,5 +83,7 @@ public class Prg13 {
         System.out.println("Total Registration Fee: "+totalfee);
         System.out.println("Fee Category: "+category);
 
+
+        
     }
 }

@@ -9,6 +9,8 @@ public class arr1{
         for(int i=0;i<num;i++){
             arr[i]=sc.nextDouble();
             sum=sum+arr[i];
+
+
             
         }
         double avg=sum/num;

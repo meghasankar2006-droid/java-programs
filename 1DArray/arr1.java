@@ -11,7 +11,7 @@ public class arr1{
             sum=sum+arr[i];
 
 
-            
+         
         }
         double avg=sum/num;
 

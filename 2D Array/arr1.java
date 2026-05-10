@@ -32,6 +32,5 @@ public class arr1{
             double ans=avg*100;
             System.out.printf("Subject %d : %.0f \n",i,ans);
         }
-
     }
 }

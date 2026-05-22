@@ -20,11 +20,7 @@ public class str3 {
             }
             System.out.print(str.charAt(i));
             System.out.print(count);
-            i=i+count;
-
-
-
-            
+            i=i+count;   
         }
         double ans=((len-acount)*100.0)/len;
         System.out.printf("\nCompression Ratio: %.2f%%",ans);

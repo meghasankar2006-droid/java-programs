@@ -18,6 +18,7 @@ public class str3 {
                     count++;
                 }
             }
+            
             System.out.print(str.charAt(i));
             System.out.print(count);
             i=i+count;   

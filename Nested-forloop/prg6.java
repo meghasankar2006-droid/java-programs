@@ -10,7 +10,6 @@ public class prg6 {
             for(int j=0;j<col;j++){
                 arr1[i][j]=sc.nextInt();
             }
-            
         }
         System.out.println("Matrix A:");
         for(int i=0;i<row;i++){

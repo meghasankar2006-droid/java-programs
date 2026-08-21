@@ -9,7 +9,6 @@ public class Prg10 {
             System.out.print("Vendor"+i+" ");
         }
         System.out.println("BestPrice");
-
         for(int i=0;i<n;i++){
             String pro=sc.next();
             System.out.print(pro+" ");

@@ -5,8 +5,6 @@ public class Prg10 {
         int n=sc.nextInt();
         int v=sc.nextInt();
         double min=0.0;
-        
-
         for(int i=1;i<=n;i++){
             System.out.print("Vendor"+i+" ");
         }

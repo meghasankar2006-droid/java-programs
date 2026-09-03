@@ -1,7 +1,6 @@
 import java.util.Scanner;
 import java.lang.Math;
 public class Prg11 {
-    
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int base=sc.nextInt();

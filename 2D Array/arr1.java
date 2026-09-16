@@ -12,6 +12,7 @@ public class arr1{
                 arr[i][j]=sc.nextInt();
             }
         }
+        
         for(int i=0;i<row;i++){
             double sum=0;
             for(int j=0;j<col;j++){

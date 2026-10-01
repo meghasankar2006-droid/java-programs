@@ -10,6 +10,7 @@ public class arr11 {
             for(int j=0;j<c;j++){
                 arr[i][j]=sc.nextInt();
             }
+            
         }
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){

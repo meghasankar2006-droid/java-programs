@@ -1,0 +1,26 @@
+import java.util.*;
+public class Main{
+    public static void main(String []args){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        ArrayList <Integer> li=new ArrayList<>();
+        for(int i=0;i<n;i++){
+            li.add(sc.nextInt());
+        }
+        for(int i=1;i<n;i++){
+            int right=0;
+            int left=0;
+            for(int j=0;j<i;j++){
+                right=right+li.get(j);
+            }
+            for(int k=i+1;k<n;k++){
+                left=left+li.get(k);
+            }
+            if(right==left){
+                System.out.println(i);
+                return;
+            }
+        }
+        System.out.println(-1);
+    }
+}
